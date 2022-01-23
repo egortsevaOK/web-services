@@ -1,0 +1,28 @@
+{
+  "name": "web-services",
+  "version": "1.0.0",
+  "description": "automated testing of web-services",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --parallel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egortsevaOK/web-services.git"
+  },
+  "author": "Olga Egortseva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/egortsevaOK/web-services/issues"
+  },
+  "homepage": "https://github.com/egortsevaOK/web-services#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^8.7.0",
+    "eslint-config-google": "^0.14.0",
+    "mocha": "^9.1.4"
+  },
+  "dependencies": {
+    "axios": "^0.25.0"
+  }
+}
